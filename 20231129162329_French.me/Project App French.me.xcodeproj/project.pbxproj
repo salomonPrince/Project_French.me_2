@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D21D8252AFEAB7900279ED7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D21D8242AFEAB7900279ED7 /* AppDelegate.swift */; };
+		5D21D8272AFEAB7900279ED7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D21D8262AFEAB7900279ED7 /* SceneDelegate.swift */; };
+		5D21D82C2AFEAB7900279ED7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D21D82A2AFEAB7900279ED7 /* Main.storyboard */; };
+		5D21D82F2AFEAB7900279ED7 /* Project_App_French_me.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D21D82D2AFEAB7900279ED7 /* Project_App_French_me.xcdatamodeld */; };
+		5D21D8312AFEAB7A00279ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D21D8302AFEAB7A00279ED7 /* Assets.xcassets */; };
+		5D21D8342AFEAB7A00279ED7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D21D8322AFEAB7A00279ED7 /* LaunchScreen.storyboard */; };
+		5DE32D5B2B1E2DE5006C138E /* FrenchVerbAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE32D502B1E2DE4006C138E /* FrenchVerbAPI.swift */; };
+		5DE32D5C2B1E2DE5006C138E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE32D512B1E2DE4006C138E /* API.swift */; };
+		5DE32D5D2B1E2DE5006C138E /* FrenchVerbInfinitiveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE32D532B1E2DE4006C138E /* FrenchVerbInfinitiveModel.swift */; };
+		5DE32D5E2B1E2DE5006C138E /* FrenchVerbParticipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE32D542B1E2DE4006C138E /* FrenchVerbParticipeModel.swift */; };
+		5DE32D5F2B1E2DE5006C138E /* FrenchVerbConditionnelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE32D552B1E2DE4006C138E /* FrenchVerbConditionnelModel.swift */; };
+		5DE32D602B1E2DE5006C138E /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = 5DE32D562B1E2DE4006C138E /* example.json */; };
+		5DE32D612B1E2DE5006C138E /* FrenchVerbModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE32D572B1E2DE4006C138E /* FrenchVerbModel.swift */; };
+		5DE32D622B1E2DE5006C138E /* FrenchVerbImperatifModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE32D582B1E2DE4006C138E /* FrenchVerbImperatifModel.swift */; };
+		5DE32D632B1E2DE5006C138E /* FrenchVerbIndicatifModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE32D592B1E2DE4006C138E /* FrenchVerbIndicatifModel.swift */; };
+		5DE32D642B1E2DE5006C138E /* FrenchVerbSubjonctifModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE32D5A2B1E2DE4006C138E /* FrenchVerbSubjonctifModel.swift */; };
+		5DE32D672B1E2F25006C138E /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE32D662B1E2F25006C138E /* Context.swift */; };
+		5DE83DCB2B14DEA7001D3FEA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE83DCA2B14DEA7001D3FEA /* LoginViewController.swift */; };
+		5DE83DCD2B14DEC3001D3FEA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE83DCC2B14DEC3001D3FEA /* MainViewController.swift */; };
+		5DE83DCF2B14DEDE001D3FEA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE83DCE2B14DEDE001D3FEA /* ResultViewController.swift */; };
+		5DE83DD12B14E64C001D3FEA /* VerbProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE83DD02B14E64C001D3FEA /* VerbProvider.swift */; };
+		5DE83DD32B14EEB7001D3FEA /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE83DD22B14EEB6001D3FEA /* Toast.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D21D8212AFEAB7800279ED7 /* Project App French.me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project App French.me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D21D8242AFEAB7900279ED7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D21D8262AFEAB7900279ED7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5D21D82B2AFEAB7900279ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D21D82E2AFEAB7900279ED7 /* Project_App_French_me.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Project_App_French_me.xcdatamodel; sourceTree = "<group>"; };
+		5D21D8302AFEAB7A00279ED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D21D8332AFEAB7A00279ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D21D8352AFEAB7A00279ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE32D502B1E2DE4006C138E /* FrenchVerbAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrenchVerbAPI.swift; sourceTree = "<group>"; };
+		5DE32D512B1E2DE4006C138E /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		5DE32D532B1E2DE4006C138E /* FrenchVerbInfinitiveModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrenchVerbInfinitiveModel.swift; sourceTree = "<group>"; };
+		5DE32D542B1E2DE4006C138E /* FrenchVerbParticipeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrenchVerbParticipeModel.swift; sourceTree = "<group>"; };
+		5DE32D552B1E2DE4006C138E /* FrenchVerbConditionnelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrenchVerbConditionnelModel.swift; sourceTree = "<group>"; };
+		5DE32D562B1E2DE4006C138E /* example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = example.json; sourceTree = "<group>"; };
+		5DE32D572B1E2DE4006C138E /* FrenchVerbModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrenchVerbModel.swift; sourceTree = "<group>"; };
+		5DE32D582B1E2DE4006C138E /* FrenchVerbImperatifModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrenchVerbImperatifModel.swift; sourceTree = "<group>"; };
+		5DE32D592B1E2DE4006C138E /* FrenchVerbIndicatifModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrenchVerbIndicatifModel.swift; sourceTree = "<group>"; };
+		5DE32D5A2B1E2DE4006C138E /* FrenchVerbSubjonctifModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrenchVerbSubjonctifModel.swift; sourceTree = "<group>"; };
+		5DE32D662B1E2F25006C138E /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		5DE83DCA2B14DEA7001D3FEA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5DE83DCC2B14DEC3001D3FEA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5DE83DCE2B14DEDE001D3FEA /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		5DE83DD02B14E64C001D3FEA /* VerbProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbProvider.swift; sourceTree = "<group>"; };
+		5DE83DD22B14EEB6001D3FEA /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D21D81E2AFEAB7800279ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D21D8182AFEAB7800279ED7 = {
+			isa = PBXGroup;
+			children = (
+				5DE32D652B1E2DF2006C138E /* Shared */,
+				5DE32D522B1E2DE4006C138E /* Model */,
+				5DE32D4D2B1E2DE4006C138E /* Service */,
+				5D21D8232AFEAB7800279ED7 /* Project App French.Me */,
+				5D21D8222AFEAB7800279ED7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D21D8222AFEAB7800279ED7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D21D8212AFEAB7800279ED7 /* Project App French.me.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D21D8232AFEAB7800279ED7 /* Project App French.Me */ = {
+			isa = PBXGroup;
+			children = (
+				5DE83DD22B14EEB6001D3FEA /* Toast.swift */,
+				5D21D8242AFEAB7900279ED7 /* AppDelegate.swift */,
+				5DE83DCE2B14DEDE001D3FEA /* ResultViewController.swift */,
+				5DE83DCC2B14DEC3001D3FEA /* MainViewController.swift */,
+				5DE83DCA2B14DEA7001D3FEA /* LoginViewController.swift */,
+				5D21D8262AFEAB7900279ED7 /* SceneDelegate.swift */,
+				5D21D82A2AFEAB7900279ED7 /* Main.storyboard */,
+				5D21D8302AFEAB7A00279ED7 /* Assets.xcassets */,
+				5D21D8322AFEAB7A00279ED7 /* LaunchScreen.storyboard */,
+				5D21D8352AFEAB7A00279ED7 /* Info.plist */,
+				5D21D82D2AFEAB7900279ED7 /* Project_App_French_me.xcdatamodeld */,
+				5DE83DD02B14E64C001D3FEA /* VerbProvider.swift */,
+			);
+			path = "Project App French.Me";
+			sourceTree = "<group>";
+		};
+		5DE32D4D2B1E2DE4006C138E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5DE32D4E2B1E2DE4006C138E /* API */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5DE32D4E2B1E2DE4006C138E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5DE32D4F2B1E2DE4006C138E /* FrenchVerbAPI */,
+				5DE32D512B1E2DE4006C138E /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5DE32D4F2B1E2DE4006C138E /* FrenchVerbAPI */ = {
+			isa = PBXGroup;
+			children = (
+				5DE32D502B1E2DE4006C138E /* FrenchVerbAPI.swift */,
+			);
+			path = FrenchVerbAPI;
+			sourceTree = "<group>";
+		};
+		5DE32D522B1E2DE4006C138E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DE32D532B1E2DE4006C138E /* FrenchVerbInfinitiveModel.swift */,
+				5DE32D542B1E2DE4006C138E /* FrenchVerbParticipeModel.swift */,
+				5DE32D552B1E2DE4006C138E /* FrenchVerbConditionnelModel.swift */,
+				5DE32D562B1E2DE4006C138E /* example.json */,
+				5DE32D572B1E2DE4006C138E /* FrenchVerbModel.swift */,
+				5DE32D582B1E2DE4006C138E /* FrenchVerbImperatifModel.swift */,
+				5DE32D592B1E2DE4006C138E /* FrenchVerbIndicatifModel.swift */,
+				5DE32D5A2B1E2DE4006C138E /* FrenchVerbSubjonctifModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5DE32D652B1E2DF2006C138E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5DE32D662B1E2F25006C138E /* Context.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D21D8202AFEAB7800279ED7 /* Project App French.me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D21D8382AFEAB7A00279ED7 /* Build configuration list for PBXNativeTarget "Project App French.me" */;
+			buildPhases = (
+				5D21D81D2AFEAB7800279ED7 /* Sources */,
+				5D21D81E2AFEAB7800279ED7 /* Frameworks */,
+				5D21D81F2AFEAB7800279ED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project App French.me";
+			productName = "Project App French.me";
+			productReference = 5D21D8212AFEAB7800279ED7 /* Project App French.me.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D21D8192AFEAB7800279ED7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5D21D8202AFEAB7800279ED7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 5D21D81C2AFEAB7800279ED7 /* Build configuration list for PBXProject "Project App French.me" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D21D8182AFEAB7800279ED7;
+			productRefGroup = 5D21D8222AFEAB7800279ED7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D21D8202AFEAB7800279ED7 /* Project App French.me */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D21D81F2AFEAB7800279ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE32D602B1E2DE5006C138E /* example.json in Resources */,
+				5D21D8342AFEAB7A00279ED7 /* LaunchScreen.storyboard in Resources */,
+				5D21D8312AFEAB7A00279ED7 /* Assets.xcassets in Resources */,
+				5D21D82C2AFEAB7900279ED7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D21D81D2AFEAB7800279ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE83DCB2B14DEA7001D3FEA /* LoginViewController.swift in Sources */,
+				5DE83DD32B14EEB7001D3FEA /* Toast.swift in Sources */,
+				5D21D8252AFEAB7900279ED7 /* AppDelegate.swift in Sources */,
+				5DE83DD12B14E64C001D3FEA /* VerbProvider.swift in Sources */,
+				5DE32D5E2B1E2DE5006C138E /* FrenchVerbParticipeModel.swift in Sources */,
+				5DE32D5C2B1E2DE5006C138E /* API.swift in Sources */,
+				5D21D8272AFEAB7900279ED7 /* SceneDelegate.swift in Sources */,
+				5D21D82F2AFEAB7900279ED7 /* Project_App_French_me.xcdatamodeld in Sources */,
+				5DE32D612B1E2DE5006C138E /* FrenchVerbModel.swift in Sources */,
+				5DE32D5B2B1E2DE5006C138E /* FrenchVerbAPI.swift in Sources */,
+				5DE32D632B1E2DE5006C138E /* FrenchVerbIndicatifModel.swift in Sources */,
+				5DE32D5F2B1E2DE5006C138E /* FrenchVerbConditionnelModel.swift in Sources */,
+				5DE32D622B1E2DE5006C138E /* FrenchVerbImperatifModel.swift in Sources */,
+				5DE32D5D2B1E2DE5006C138E /* FrenchVerbInfinitiveModel.swift in Sources */,
+				5DE83DCD2B14DEC3001D3FEA /* MainViewController.swift in Sources */,
+				5DE32D672B1E2F25006C138E /* Context.swift in Sources */,
+				5DE83DCF2B14DEDE001D3FEA /* ResultViewController.swift in Sources */,
+				5DE32D642B1E2DE5006C138E /* FrenchVerbSubjonctifModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D21D82A2AFEAB7900279ED7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D21D82B2AFEAB7900279ED7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D21D8322AFEAB7A00279ED7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D21D8332AFEAB7A00279ED7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D21D8362AFEAB7A00279ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D21D8372AFEAB7A00279ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D21D8392AFEAB7A00279ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Project App French.me/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "D.Project-App-French-me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D21D83A2AFEAB7A00279ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Project App French.me/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "D.Project-App-French-me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D21D81C2AFEAB7800279ED7 /* Build configuration list for PBXProject "Project App French.me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D21D8362AFEAB7A00279ED7 /* Debug */,
+				5D21D8372AFEAB7A00279ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D21D8382AFEAB7A00279ED7 /* Build configuration list for PBXNativeTarget "Project App French.me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D21D8392AFEAB7A00279ED7 /* Debug */,
+				5D21D83A2AFEAB7A00279ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5D21D82D2AFEAB7900279ED7 /* Project_App_French_me.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5D21D82E2AFEAB7900279ED7 /* Project_App_French_me.xcdatamodel */,
+			);
+			currentVersion = 5D21D82E2AFEAB7900279ED7 /* Project_App_French_me.xcdatamodel */;
+			path = Project_App_French_me.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5D21D8192AFEAB7800279ED7 /* Project object */;
+}
